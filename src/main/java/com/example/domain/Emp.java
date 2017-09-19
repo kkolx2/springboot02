@@ -42,7 +42,7 @@ public class Emp {
  	private String job;
  	
 	@Column(precision=4, length=4)
- 	private BigDecimal mgr;
+ 	private Integer mgr;
 	
 	@Temporal(TemporalType.DATE)
  	@Column(nullable=false)
@@ -55,6 +55,6 @@ public class Emp {
  	private BigDecimal comm;
  	
  	@Column(precision=2, length=2)
- 	private BigDecimal deptno; 
+ 	private Integer deptno; 
 	
 }
